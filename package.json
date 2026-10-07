@@ -1,0 +1,22 @@
+{
+  "name": "ventana-oscura",
+  "version": "1.0.0",
+  "description": "Cuándo es de noche de verdad en tu ciudad: sitio estático de astronomía con SEO programático",
+  "scripts": {
+    "build": "node build.js",
+    "demo": "node build.js --limit 40 --relative --out demo",
+    "serve": "npx --yes serve dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "all-the-cities": "^3.1.0",
+    "astronomy-engine": "^2.1.19",
+    "geo-tz": "^8.1.9"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  }
+}
