@@ -11,5 +11,5 @@ module.exports = {
   amazonTag: process.env.AMAZON_TAG || '',         // p. ej. 'ventanaoscura-21'
   contactEmail: process.env.CONTACT_EMAIL || 'hola@ventanaoscura.com',
   // Google Search Console: meta de verificación (opcional)
-  googleVerification: process.env.GOOGLE_VERIFICATION || '',
+  googleVerification: process.env.GOOGLE_VERIFICATION || '8moKmmTvqFPgCjD3Uhz3JpBmr2BiPmEv8hQDcAiK4r4',
 };
